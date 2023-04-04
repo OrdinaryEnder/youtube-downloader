@@ -1,9 +1,5 @@
 {
-    "version": 2,
-    "routes": [
-        {
-            "src": "/main.py",
-            "dest": "/"
-        }
-    ]
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/main.py" }
+  ]
 }
